@@ -1107,7 +1107,7 @@
           "useBackend": false
         }
       ],
-      "title": "Free SSD",
+      "title": "Free SD-Card",
       "type": "stat"
     },
     {
@@ -1871,5 +1871,5 @@
   "timezone": "browser",
   "title": "FTP-Monitoring",
   "uid": "eehk1np78yx34d",
-  "version": 12
+  "version": 13
 }
