@@ -311,7 +311,7 @@
           "useBackend": false
         }
       ],
-      "title": "Used: metadata",
+      "title": "Raid: metadata",
       "type": "stat"
     },
     {
@@ -385,7 +385,7 @@
           "useBackend": false
         }
       ],
-      "title": "Used: data",
+      "title": "Raid: data",
       "type": "stat"
     },
     {
@@ -459,7 +459,7 @@
           "useBackend": false
         }
       ],
-      "title": "Used: system",
+      "title": "Raid: system",
       "type": "stat"
     },
     {
@@ -1060,7 +1060,7 @@
               }
             ]
           },
-          "unit": "celsius"
+          "unit": "bytes"
         },
         "overrides": []
       },
@@ -1070,7 +1070,7 @@
         "x": 8,
         "y": 4
       },
-      "id": 35,
+      "id": 27,
       "options": {
         "colorMode": "value",
         "graphMode": "area",
@@ -1098,7 +1098,7 @@
           },
           "disableTextWrap": false,
           "editorMode": "builder",
-          "expr": "node_hwmon_temp_celsius",
+          "expr": "node_filesystem_free_bytes{device=\"/dev/root\"}",
           "fullMetaSearch": false,
           "includeNullMetadata": true,
           "legendFormat": "__auto",
@@ -1107,7 +1107,7 @@
           "useBackend": false
         }
       ],
-      "title": "Temp",
+      "title": "SD-Card Free ",
       "type": "stat"
     },
     {
@@ -1586,7 +1586,7 @@
               }
             ]
           },
-          "unit": "bytes"
+          "unit": "celsius"
         },
         "overrides": []
       },
@@ -1596,7 +1596,7 @@
         "x": 8,
         "y": 8
       },
-      "id": 27,
+      "id": 35,
       "options": {
         "colorMode": "value",
         "graphMode": "area",
@@ -1624,7 +1624,7 @@
           },
           "disableTextWrap": false,
           "editorMode": "builder",
-          "expr": "node_filesystem_free_bytes{device=\"/dev/root\"}",
+          "expr": "node_hwmon_temp_celsius",
           "fullMetaSearch": false,
           "includeNullMetadata": true,
           "legendFormat": "__auto",
@@ -1633,7 +1633,7 @@
           "useBackend": false
         }
       ],
-      "title": "Free SD-Card",
+      "title": "Temp",
       "type": "stat"
     },
     {
@@ -2619,5 +2619,5 @@
   "timezone": "browser",
   "title": "FTP-Monitoring",
   "uid": "eehk1np78yx34d",
-  "version": 12
+  "version": 15
 }
