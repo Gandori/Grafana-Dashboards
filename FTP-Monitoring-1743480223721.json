@@ -523,8 +523,8 @@
             "uid": "aehsnqzz5h79cd"
           },
           "disableTextWrap": false,
-          "editorMode": "code",
-          "expr": "node_btrfs_commit_seconds_total",
+          "editorMode": "builder",
+          "expr": "node_btrfs_last_commit_seconds",
           "fullMetaSearch": false,
           "hide": false,
           "includeNullMetadata": true,
@@ -744,7 +744,7 @@
             "uid": "eehk1kf902scgf"
           },
           "disableTextWrap": false,
-          "editorMode": "builder",
+          "editorMode": "code",
           "expr": "node_disk_read_bytes_total{device=\"sda\"}",
           "fullMetaSearch": false,
           "includeNullMetadata": true,
@@ -2697,5 +2697,5 @@
   "timezone": "browser",
   "title": "FTP-Monitoring",
   "uid": "eehk1np78yx34d",
-  "version": 16
+  "version": 17
 }
