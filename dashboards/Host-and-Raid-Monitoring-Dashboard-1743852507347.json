@@ -1112,7 +1112,7 @@
           "useBackend": false
         }
       ],
-      "title": "SD-Card Free ",
+      "title": "Free: SD-Card ",
       "type": "stat"
     },
     {
@@ -2548,7 +2548,7 @@
       "gridPos": {
         "h": 8,
         "w": 8,
-        "x": 8,
+        "x": 4,
         "y": 24
       },
       "id": 3,
@@ -2645,8 +2645,8 @@
       "gridPos": {
         "h": 8,
         "w": 8,
-        "x": 8,
-        "y": 32
+        "x": 12,
+        "y": 24
       },
       "id": 29,
       "options": {
@@ -2697,5 +2697,5 @@
   "timezone": "browser",
   "title": "Host-and-Raid-Monitoring-Dashboard",
   "uid": "eehk1np78yx34d",
-  "version": 18
+  "version": 20
 }
