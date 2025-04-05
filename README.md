@@ -9,7 +9,7 @@
 </h4>
 
 <p align='center'>
-    The Grafana dashboard was created to monitor a Btrfs RAID1 with two devices and the host of the RAID.
+    The Grafana dashboard was created to monitor a Btrfs RAID1 and the host of the RAID.
     It provides a visual representation of system performance, storage usage, and other key metrics to
     ensure effective monitoring and maintenance of the setup.
 </p>
