@@ -19,8 +19,6 @@
     The Grafana dashboard is running on a Raspberry Pi (RPI), providing monitoring for Btrfs RAID and the host system.
 </h6>
 
-<p>Dashboard file </p>
-
 <div align='center'>
     <img src='./preview-images/host-and-raid-monitoring-dashboard-2.png' alt='host-and-raid-monitoring-dashboard'>
 </div>
