@@ -8,15 +8,8 @@
     Host and Raid Dashboard
 </h4>
 
-<p align='center'>
-    The Grafana dashboard was created to monitor a Btrfs RAID1 and the host of the RAID.
-    It provides a visual representation of system performance, storage usage, and other key metrics to
-    ensure effective monitoring and maintenance of the setup.
-</p>
-
-
 <h6 align='center'>
-    The Grafana dashboard is running on a Raspberry Pi (RPI), providing monitoring for Btrfs RAID and the host system.
+    The Grafana dashboard is running on a Raspberry Pi 3B , providing monitoring for the BTRFS RAID1c3 and the host system.
 </h6>
 
 <div align='center'>
