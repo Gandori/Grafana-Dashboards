@@ -9,7 +9,7 @@
 </h4>
 
 <h6 align='center'>
-    The Grafana dashboard is running on a Raspberry Pi 3B , providing monitoring for the BTRFS RAID1c3 and the host system.
+    Running on a Raspberry Pi 3B , providing monitoring for the BTRFS RAID1c3 and the host system.
 </h6>
 
 <div align='center'>
