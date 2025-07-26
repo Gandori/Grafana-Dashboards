@@ -50,7 +50,7 @@
             },
             "gridPos": {
                 "h": 6,
-                "w": 10,
+                "w": 8,
                 "x": 0,
                 "y": 0
             },
@@ -65,8 +65,12 @@
                     "values": false
                 },
                 "showThresholdLabels": false,
-                "showThresholdMarkers": true,
-                "sizing": "auto"
+                "showThresholdMarkers": false,
+                "sizing": "auto",
+                "text": {
+                    "titleSize": 18,
+                    "valueSize": 30
+                }
             },
             "pluginVersion": "11.6.0",
             "targets": [
@@ -82,26 +86,9 @@
                     "hide": false,
                     "includeNullMetadata": true,
                     "instant": false,
-                    "legendFormat": "Used",
+                    "legendFormat": "Data",
                     "range": true,
                     "refId": "D",
-                    "useBackend": false
-                },
-                {
-                    "datasource": {
-                        "type": "prometheus",
-                        "uid": "PBFA97CFB590B2093"
-                    },
-                    "disableTextWrap": false,
-                    "editorMode": "builder",
-                    "expr": "node_btrfs_used_bytes{block_group_type=\"data\"}",
-                    "fullMetaSearch": false,
-                    "hide": true,
-                    "includeNullMetadata": true,
-                    "instant": false,
-                    "legendFormat": "__auto",
-                    "range": true,
-                    "refId": "B",
                     "useBackend": false
                 },
                 {
@@ -139,7 +126,7 @@
                     "useBackend": false
                 }
             ],
-            "title": "",
+            "title": "Data Info",
             "type": "gauge"
         },
         {
@@ -168,23 +155,27 @@
             },
             "gridPos": {
                 "h": 6,
-                "w": 6,
-                "x": 10,
+                "w": 8,
+                "x": 8,
                 "y": 0
             },
             "id": 38,
             "options": {
                 "minVizHeight": 75,
                 "minVizWidth": 75,
-                "orientation": "vertical",
+                "orientation": "auto",
                 "reduceOptions": {
-                    "calcs": [],
+                    "calcs": ["lastNotNull"],
                     "fields": "",
                     "values": false
                 },
                 "showThresholdLabels": false,
-                "showThresholdMarkers": true,
-                "sizing": "auto"
+                "showThresholdMarkers": false,
+                "sizing": "auto",
+                "text": {
+                    "titleSize": 18,
+                    "valueSize": 30
+                }
             },
             "pluginVersion": "11.6.0",
             "targets": [
@@ -202,7 +193,7 @@
                     "hide": false,
                     "includeNullMetadata": true,
                     "instant": false,
-                    "legendFormat": "Slowest commit",
+                    "legendFormat": "Slowest",
                     "range": true,
                     "refId": "B",
                     "useBackend": false
@@ -220,7 +211,7 @@
                     "hide": false,
                     "includeNullMetadata": true,
                     "instant": false,
-                    "legendFormat": "Last commit",
+                    "legendFormat": "Last",
                     "range": true,
                     "refId": "A",
                     "useBackend": false
@@ -243,7 +234,7 @@
                     "useBackend": false
                 }
             ],
-            "title": "",
+            "title": "Commit Info",
             "type": "gauge"
         },
         {
@@ -295,7 +286,7 @@
                 "showPercentChange": false,
                 "text": {
                     "titleSize": 18,
-                    "valueSize": 40
+                    "valueSize": 30
                 },
                 "textMode": "value_and_name",
                 "wideLayout": false
@@ -370,7 +361,7 @@
                 "showPercentChange": false,
                 "text": {
                     "titleSize": 18,
-                    "valueSize": 40
+                    "valueSize": 30
                 },
                 "textMode": "value_and_name",
                 "wideLayout": false
@@ -441,7 +432,7 @@
                 "showPercentChange": false,
                 "text": {
                     "titleSize": 18,
-                    "valueSize": 40
+                    "valueSize": 30
                 },
                 "textMode": "auto",
                 "wideLayout": true
@@ -516,7 +507,7 @@
                 "showPercentChange": false,
                 "text": {
                     "titleSize": 18,
-                    "valueSize": 40
+                    "valueSize": 30
                 },
                 "textMode": "auto",
                 "wideLayout": true
@@ -591,7 +582,7 @@
                 "showPercentChange": false,
                 "text": {
                     "titleSize": 18,
-                    "valueSize": 20
+                    "valueSize": 30
                 },
                 "textMode": "auto",
                 "wideLayout": true
@@ -668,7 +659,7 @@
                 "showPercentChange": false,
                 "text": {
                     "titleSize": 18,
-                    "valueSize": 20
+                    "valueSize": 30
                 },
                 "textMode": "auto",
                 "wideLayout": true
@@ -873,7 +864,8 @@
                 },
                 "showPercentChange": true,
                 "text": {
-                    "titleSize": 18
+                    "titleSize": 18,
+                    "valueSize": 30
                 },
                 "textMode": "auto",
                 "wideLayout": true
@@ -945,7 +937,11 @@
                 },
                 "showThresholdLabels": false,
                 "showThresholdMarkers": true,
-                "sizing": "auto"
+                "sizing": "auto",
+                "text": {
+                    "titleSize": 18,
+                    "valueSize": 30
+                }
             },
             "pluginVersion": "11.6.0",
             "targets": [
@@ -985,5 +981,5 @@
     "timezone": "browser",
     "title": "Host-and-Raid-Monitoring-Dashboard",
     "uid": "eehk1np78yx34d",
-    "version": 7
+    "version": 8
 }
