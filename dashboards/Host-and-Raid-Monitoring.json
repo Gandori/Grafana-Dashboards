@@ -775,7 +775,7 @@
                     "hide": false,
                     "includeNullMetadata": true,
                     "instant": false,
-                    "legendFormat": "__auto",
+                    "legendFormat": "Total",
                     "range": true,
                     "refId": "A",
                     "useBackend": false
@@ -792,7 +792,7 @@
                     "hide": false,
                     "includeNullMetadata": true,
                     "instant": false,
-                    "legendFormat": "__auto",
+                    "legendFormat": "Available",
                     "range": true,
                     "refId": "B",
                     "useBackend": false
@@ -972,8 +972,8 @@
         "list": []
     },
     "time": {
-        "from": "2025-07-26T14:29:12.248Z",
-        "to": "2025-07-26T14:30:01.979Z"
+        "from": "now-5m",
+        "to": "now"
     },
     "timepicker": {
         "hidden": true,
@@ -982,5 +982,5 @@
     "timezone": "browser",
     "title": "Host-and-Raid-Monitoring-Dashboard",
     "uid": "eehk1np78yx34d",
-    "version": 11
+    "version": 14
 }
