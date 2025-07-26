@@ -126,7 +126,7 @@
                     "useBackend": false
                 }
             ],
-            "title": "Data Info",
+            "title": "Used Storage",
             "type": "gauge"
         },
         {
@@ -976,10 +976,11 @@
         "to": "2025-07-26T14:30:01.979Z"
     },
     "timepicker": {
-        "hidden": true
+        "hidden": true,
+        "nowDelay": ""
     },
     "timezone": "browser",
     "title": "Host-and-Raid-Monitoring-Dashboard",
     "uid": "eehk1np78yx34d",
-    "version": 8
+    "version": 11
 }
